@@ -1,0 +1,75 @@
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  height: 300px;
+  transition: all 0.15s ease;
+}
+
+.card:hover{
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.media {
+  position: relative;
+  height: 150px;
+  background: #f3f4f6;
+}
+
+.like {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  color: #9ca3af;
+
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.like:hover{
+    border: 1px solid rgb(171, 171, 171);
+}
+
+.liked {
+  color: #ef4444;
+  border-color: rgba(239, 68, 68, 0.35);
+}
+
+.body {
+  padding: 12px 12px 14px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #111827;
+}
+
+.desc {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.price {
+  margin-top: 70px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111827;
+}
